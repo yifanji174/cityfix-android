@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:background="@android:color/white"
+    android:padding="12dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_button_5">
+
+<!--        Add-->
+        <ImageView
+            android:id="@+id/reportImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="18dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/new_report_selected" />
+
+        <!--Title-->
+
+        <ImageButton
+            android:id="@+id/favoriteButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="9dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Favorite"
+            android:scaleType="centerInside"
+            android:src="@drawable/star0" />
+
+        <TextView
+            android:id="@+id/reportTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@id/reportImage"
+            android:text="Title"
+            android:textColor="#222222"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- From -->
+        <TextView
+            android:id="@+id/reportFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reportTitle"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@id/reportImage"
+            android:text="From: user"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <!-- Time -->
+        <TextView
+            android:id="@+id/reportTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reportFrom"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@id/reportImage"
+            android:text="Report time: 2025-04-21"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <!-- Location -->
+        <TextView
+            android:id="@+id/reportLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reportTime"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@id/reportImage"
+            android:text="Location: Main St"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <!-- Type -->
+        <TextView
+            android:id="@+id/reportType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reportLocation"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@id/reportImage"
+            android:text="Type: Fire hydrant"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <!-- Status -->
+        <LinearLayout
+            android:id="@+id/statusContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reportType"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@id/reportImage"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="4dp">
+
+            <ImageView
+                android:id="@+id/reportStatus"
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/statues_not_start_yet" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

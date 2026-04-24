@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:ignore="CoarseFineLocation" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".CityFixApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CityFix"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.common.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.common.QAActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.common.FavoriteReportListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.common.NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.common.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.citizen.NewReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.common.MapSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.common.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.common.ReportListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.citizen.ReportDetailCitizenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.worker.ReportDetailWorkerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.common.FullScreenMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.common.FullscreenImageActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+    </application>
+
+</manifest>

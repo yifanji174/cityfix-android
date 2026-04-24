@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "737872361315",
+    "project_id": "g04-group-project-9b526",
+    "storage_bucket": "g04-group-project-9b526.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737872361315:android:c61d618adec0e3af164556",
+        "android_client_info": {
+          "package_name": "com.g04.cityfix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHvc5VfOZEII6MgeT-87G9rpoFRx15wN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
