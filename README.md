@@ -1,14 +1,13 @@
 # CityFix
 
-<!-- 顶部为界面预览图；可替换 <code>docs/screenshots/*.png</code> 为真机截图后重新 <code>git push</code> -->
 <p align="center">
-  <b>UI preview</b> — <a href="docs/screenshots/README.md">file names &amp; how to replace</a>
+  <b>UI preview</b> — snapshots taken from the submitted group build
   <br/><br/>
-  <img src="docs/screenshots/Screenshot_reportlist_citizen.png" width="30%" alt="Main list (citizen)" />
+  <img src="docs/screenshots/home.png" width="30%" alt="Main list (citizen)" />
   &nbsp;
-  <img src="docs/screenshots/Screenshot_newReport.png" width="30%" alt="New report" />
+  <img src="docs/screenshots/new_report.png" width="30%" alt="New report" />
   &nbsp;
-  <img src="docs/screenshots/Screenshot_search.png" width="30%" alt="Search" />
+  <img src="docs/screenshots/report_detail.png" width="30%" alt="Report detail" />
 </p>
 
 ---
@@ -27,39 +26,33 @@ Group **G04**, **COMP6442** Semester 1, 2025, Australian National University.
 
 ## More screenshots
 
-> Source for images: GitLab
-> [`Images/page example`](https://gitlab.comp.anu.edu.au/u7951193/gp-25s1/-/tree/f216a469a8951423bc324be4c468883eb34e3096/Images/page%20example)
-> or `items/media/screenshots/` in the monorepo — filenames must match
-> [`docs/screenshots/README.md`](docs/screenshots/README.md).
-
-### Login and main list (citizen / worker)
+### Login
 
 <p align="center">
-  <img src="docs/screenshots/Screenshot_login.png" width="32%" alt="Login" />
-  <img src="docs/screenshots/Screenshot_reportlist_citizen.png" width="32%" alt="Report list — citizen" />
-  <img src="docs/screenshots/Screenshot_reportlist_worker.png" width="32%" alt="Report list — worker" />
+  <img src="docs/screenshots/login.png" width="32%" alt="Login" />
+  <img src="docs/screenshots/login_error.png" width="32%" alt="Login with validation error" />
 </p>
 
-### Search, filters, and new report
+### Report lists and favourites
 
 <p align="center">
-  <img src="docs/screenshots/Screenshot_search.png" width="32%" alt="Search" />
-  <img src="docs/screenshots/Screenshot_search_filter.png" width="32%" alt="Filters" />
-  <img src="docs/screenshots/Screenshot_newReport.png" width="32%" alt="New report" />
+  <img src="docs/screenshots/home.png" width="32%" alt="Home / main list" />
+  <img src="docs/screenshots/reports.png" width="32%" alt="Report list with filters" />
+  <img src="docs/screenshots/marked_reports.png" width="32%" alt="Marked / favourite reports" />
 </p>
 
-### Report detail, profile, notifications
+### Submit a report and track its status
 
 <p align="center">
-  <img src="docs/screenshots/Screenshot_reportdetail_citizen.png" width="32%" alt="Report detail — citizen" />
-  <img src="docs/screenshots/Screenshot_reportdetail_worker.png" width="32%" alt="Report detail — worker" />
-  <img src="docs/screenshots/Screenshot_profile_citizen.png" width="32%" alt="Profile — citizen" />
+  <img src="docs/screenshots/new_report.png" width="32%" alt="New report" />
+  <img src="docs/screenshots/report_detail.png" width="32%" alt="Report detail (citizen)" />
+  <img src="docs/screenshots/report_detail_worker.png" width="32%" alt="Report detail (worker)" />
 </p>
 
+### Profile
+
 <p align="center">
-  <img src="docs/screenshots/Screenshot_profile_worker.png" width="32%" alt="Profile — worker" />
-  <img src="docs/screenshots/Screenshot_notification.png" width="32%" alt="Notifications" />
-  <img src="docs/screenshots/Screenshot_search_filter2.png" width="32%" alt="Filters (variant)" />
+  <img src="docs/screenshots/profile.png" width="32%" alt="Profile" />
 </p>
 
 ## Build

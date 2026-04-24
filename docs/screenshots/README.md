@@ -1,33 +1,24 @@
-# Screenshots for README (GitHub)
+# Screenshots used in the README
 
-The committed **PNG** files in this folder are **auto-generated placeholders** (dark background + label) so the README renders immediately. **Replace them** with real device screenshots for a portfolio-quality look: same filenames, then `git add`, `git commit`, `git push`.
-
-## Where to get the real images
-
-1. **Group GitLab:** `Images/page example/`  
-2. **Monorepo:** `items/media/screenshots/` (names in `items/report.md`)
-
-## Filenames (must match)
+The PNG files in this folder are real captures from the submitted group build
+(originally in the group GitLab repository at `Images/page example/`).
 
 | File | Screen |
 |------|--------|
-| `Screenshot_login.png` | Login (citizen / worker) |
-| `Screenshot_reportlist_citizen.png` | Main list — citizen |
-| `Screenshot_reportlist_worker.png` | Main list — worker |
-| `Screenshot_search.png` | Search |
-| `Screenshot_search_filter.png` | Filters (1) |
-| `Screenshot_search_filter2.png` | Filters (2) |
-| `Screenshot_newReport.png` | New report |
-| `Screenshot_reportdetail_citizen.png` | Report detail — citizen |
-| `Screenshot_reportdetail_worker.png` | Report detail — worker |
-| `Screenshot_profile_citizen.png` | Profile — citizen |
-| `Screenshot_profile_worker.png` | Profile — worker |
-| `Screenshot_notification.png` | Notifications |
+| `login.png` | Login |
+| `login_error.png` | Login with validation error |
+| `home.png` | Home / main list (citizen) |
+| `reports.png` | Report list with filters |
+| `marked_reports.png` | Marked / favourite reports |
+| `new_report.png` | New report submission |
+| `report_detail.png` | Report detail (citizen) |
+| `report_detail_worker.png` | Report detail (worker) |
+| `profile.png` | Profile |
 
-After replacing:
+To refresh with newer captures, keep the same filenames and push:
 
 ```bash
 git add docs/screenshots/*.png
-git commit -m "Replace README screenshots with real app captures"
+git commit -m "Update README screenshots"
 git push origin main
 ```
